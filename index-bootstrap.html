@@ -15,27 +15,27 @@
     <section>
         <div class="row">
         <div class="col">
-            <h1>{{user.fullName}}</h1>
-           <div class="desc"> <p>{{user.description}}<br><br></p></div>
+            <h1>{{data.user.fullName}}</h1>
+           <div class="desc"> <p>{{data.user.description}}<br><br></p></div>
         </div>
     </section>
     <section>
          <div class="container">
         <br>
         
-            <div class="col"><img class="img" src={{user.photo}}></div>
+            <div class="col"><img class="img" src={{data.user.photo}}></div>
         </div>
-        <a href={{pages.homePage}} class="btn btn-primary">HOME</a>
+        <a href={{data.pages.homePage}} class="btn btn-primary">HOME</a>
         <div class="row">
-            <h3>{{city.name}}</h3>
+            <h3>{{data.city.name}}</h3>
         </div>
     </section>
    
 
        <section> 
         <div class="row">
-        <div class="col col-md-6"><img class="img" src={{city.photo}}></div>
-        <div class="col col-md-6">{{city.description}}</div>
+        <div class="col col-md-6"><img class="img" src={{data.city.photo}}></div>
+        <div class="col col-md-6">{{data.city.description}}</div>
     </div>
 </section>
 
@@ -47,7 +47,7 @@
              <th>English</th>
              <th>Foreign Language</th>
          </tr>
-         {{#each foreignLanguage.phrases}}
+         {{#each data.foreignLanguage.phrases}}
          <tr>
              <td>{{englishPhrase}}</td>
              <td>{{foreignLanguage}}</td>
@@ -59,7 +59,7 @@
        <section>
         <div class="row"><h4>FAVOURITE SUBJECTS</h4></div>
         <div class="row">
-            {{#each favouriteSubjects}}
+            {{#each data.favouriteSubjects}}
               <div class="row"><h4>{{name}}</h4></div>
               <div class="col m6">{{description}}</div>
               <div class="col m6"><img src={{photo}}></div>
