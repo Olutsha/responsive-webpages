@@ -1,0 +1,41 @@
+body{
+   background-image: url("/images/Tablemountani.jpg");
+   background-repeat: no-repeat;
+   background-size: contain;
+  color:rgb(199, 18, 18);
+}
+.img{
+   border-radius: 10px;
+   width: 300px;
+}
+.container{
+color: blue;
+}
+table tr td,th{
+   color: red;
+   border: 1px solid;
+   
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #000;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid white;
+  }
+
+  /* Responsive layout - makes the table scroll horizontally */
+  @media (max-width: 1000px) {
+    .table {
+      overflow-x: auto;
+      display: flexbox;
+    }
+    .row{
+      overflow-x: auto;
+      display: flexbox;
+    }
+  }
