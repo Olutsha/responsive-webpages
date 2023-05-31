@@ -1,14 +1,14 @@
 {
     "user": {
         "fullName": "Mjoli Olutsha",
-        "photo": "public/luffy.png",
+        "photo": "./luffy.png",
         "qalification":"Qubulashe, Wushe,Nonina, uswanana omnancinci ongangewe kati,uncam ncam umbongo obongelwa zinyoni ziti Joli Joli,umalandelwa zintombi zithi buthi bhuti ndizeke nokba ngeke shumi lesheleni. Ai sukani madoda,Honesty is my motto, nah that's a lie. "
         
         
     },
     "city": {
         "name": "Cuba",
-        "photo": "public/cuba.png",
+        "photo": "./cuba.png",
         "description": "Beautiful Architecture and Cities: Cuba has a rich history and culture that is reflected in its architecture. You can wander the gorgeous streets of Havana and other cities.Life in contemporary Cuba is thus challenging, given the limited access to food, transportation, electrical power, and other necessities. Even so, many Cubans show a fierce pride in their revolutionary society, the only one of its kind in Latin America."
     },
     "foreignLanguage": {
@@ -32,12 +32,12 @@
         {
             "name": "Physical sciences",
             "description":"Physical science is the study of the inorganic world. That is, it does not study living things. (Those are studied in biological, or life, science.) The four main branches of physical science are astronomy, physics, chemistry, and the Earth sciences, which include meteorology and geology.",
-            "photo": "public/physical_sciences.png"
+            "photo": "./physical_sciences.png"
         },
         {
             "name": "Life Sciences",
             "description": "Life science is the study of living organisms, including plants, animals, viruses, bacteria, single-celled organisms, and cells. It encompasses fields such as biology, medicine, agriculture, environmental science, and public health.",
-            "photo": "public/life_sciences.png"
+            "photo": "./life_sciences.png"
         }
         
     ],
