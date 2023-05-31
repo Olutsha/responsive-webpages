@@ -1,5 +1,5 @@
 body{
-   background-image: url("/images/Tablemountani.png");
+   background-image: url("public/Tablemountani.png");
    background-repeat: no-repeat;
    background-size: contain;
   color:rgb(199, 18, 18);
@@ -37,5 +37,8 @@ table tr td,th{
     .row{
       overflow-x: auto;
       display: flexbox;
+    }
+    .col {
+      display: inline-block;
     }
   }
