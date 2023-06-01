@@ -2,13 +2,7 @@
     "user": {
         "fullName": "Mjoli Olutsha",
         "photo": "./luffy.png",
-        "qalification":"Qubulashe, Wushe,Nonina, uswanana omnancinci ongangewe kati,uncam ncam umbongo obongelwa zinyoni ziti Joli Joli,umalandelwa zintombi zithi buthi bhuti ndizeke nokba ngeke shumi lesheleni. Ai sukani madoda,Honesty is my motto, nah that's a lie. "
-<<<<<<< HEAD
-=======
-        "qalification":"Qubulashe, Wushe,Nonina, umsunwanana omnancinci ongangewe kati,uncam ncam umbongo obongelwa zinyoni zithi Joli Joli,umalandelwa zintombi zithi buthi bhuti ndizeke nokba ngeke shumi lesheleni. Ai sukani madoda,Honesty is my motto, nah that's a lie. "
->>>>>>> 7a6b7931458c8c38718fe989b530488f1deacdb3
-        
-        
+        "qualification": "Qubulashe, Wushe,Nonina, uswanana omnancinci ongangewe kati,uncam ncam umbongo obongelwa zinyoni ziti Joli Joli,umalandelwa zintombi zithi buthi bhuti ndizeke nokba ngeke shumi lesheleni. Ai sukani madoda,Honesty is my motto, nah that's a lie."
     },
     "city": {
         "name": "Cuba",
@@ -35,19 +29,18 @@
     "favouriteSubjects": [
         {
             "name": "Physical sciences",
-            "description":"Physical science is the study of the inorganic world. That is, it does not study living things. (Those are studied in biological, or life, science.) The four main branches of physical science are astronomy, physics, chemistry, and the Earth sciences, which include meteorology and geology.",
+            "description": " The main purpose of this course is to provide students with a basic foundation in differentiation and integration techniques with simple applications, the binomial theorem, simple series and the conic sections in preparation for further study in Engineering Mathematics IB. Topics in Calculus include: Functions; Domain and range of functions; composite functions; Limits and continuity; Differentiation; Applications of differentiation (curve sketching, maxima and minima and rates of change); Antiderivatives, definite and indefinite integrals; Riemann sums; Applications of integration to areas and volumes; the natural logarithmic and exponential functions (transcendental functions).",
             "photo": "./physical_sciences.png"
         },
         {
-            "name": "Life Sciences",
-            "description": "Life science is the study of living organisms, including plants, animals, viruses, bacteria, single-celled organisms, and cells. It encompasses fields such as biology, medicine, agriculture, environmental science, and public health.",
+            "name": "Life sciences",
+            "description": "Civil surveying is an engineering operation that involves assessing and recording details about an area of land. These observations can then be used to help plan construction projects. The main purpose of surveying in civil engineering is to determine the three-dimensional relationships between different locations. Knowing information like the distances and angles between points and lines helps engineers determine how to draw up plans for public buildings, homes, roads, bridges and a variety of other construction and infrastructure projects.",
             "photo": "./life_sciences.png"
         }
-        
     ],
-    "pages":{
-        "boostrapPages":"./index-bootstrap.html",
-        "materializePages":"./index-materialize.html",
-        "homePage":"./index.html"
+    "pages": {
+        "boostrapPages": "./index-bootstrap.html",
+        "materializePages": "./index-materialize.html",
+        "homePage": "./index.html"
     }
 }
